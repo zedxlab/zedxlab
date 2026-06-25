@@ -12,6 +12,20 @@
 <!-- PROFILE VIEWS -->
 <img src="https://count.getloli.com/get/@zedxlab?theme=gelbooru" width="150"/>
 
+<!-- BADGES ROW -->
+<img src="https://img.shields.io/badge/-🏆%20Pull%20Shark-8B5CF6?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/-🚀%20YOLO-2ea043?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/-🧠%20Galaxy%20Brain-d29922?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/-⭐%20Starstruck-f78166?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/-⚡%20Quickdraw-2ea043?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/-👥%20Pair%20Extra-539bf5?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/-🛡️%20Security%20Maverick-f48024?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/-🐛%20Bug%20Hunter-da3633?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/-💬%20Discussion%20Hero-8B5CF6?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/-⚡%20Lightning%20Speed-f78166?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/-🎯%20Issue%20Whisperer-da3633?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/-📦%20Release%20Rider-539bf5?style=for-the-badge&logo=github&logoColor=white" />
+
 </div>
 
 ---
@@ -26,7 +40,7 @@ location: India
 focus: Building free, open AI tools — scrapers, APIs, image generators
 stack: [Node.js, Python, Chromium CDP, Vercel, Telegram Bots]
 philosophy: "If it costs money, someone will build it free"
-status: 🟢 Always shipping, never stopping
+status: Always shipping, never stopping
 ```
 
 ---
@@ -67,7 +81,7 @@ status: 🟢 Always shipping, never stopping
 > Headless Chromium + CDP + Xvfb — generates images from ChatGPT without browser UI.
 > Auto-injects cookies, polls for completion, uploads to tmpfiles.org, sends via Telegram.
 
-- **7-step pipeline**: connect → inject cookies → navigate → fill prompt → poll stop-button → extract estuary URLs → fetch + base64
+- **7-step pipeline**: connect -> inject cookies -> navigate -> fill prompt -> poll stop-button -> extract estuary URLs -> fetch + base64
 - **Live screenshots** during generation via Telegram bot
 - **Multi-account** cookie support
 - **Persistent Chromium profile** — survives restarts
@@ -138,17 +152,16 @@ status: 🟢 Always shipping, never stopping
 
 <!-- PROJECT 6 -->
 <details>
-<summary><b> chatgpt-scraper/gemini.js</b> — Gemini Image Generator</summary>
+<summary><b> gemini.js</b> — Gemini Image Generator</summary>
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![Chrome](https://img.shields.io/badge/Chrome-4285F4?style=flat&logo=googlechrome&logoColor=white)
 
 > Google Gemini image generation via CDP browser automation.
-> Cookie injection + blob→canvas→tmpfiles.org pipeline.
+> Cookie injection + blob -> canvas -> tmpfiles.org pipeline.
 
 - **Integrated** as Model 13 in imagen.py
 - **Google cookies** inject OK with sameSite fix
-- **Live screenshots** via shared module
 
 </details>
 
@@ -161,10 +174,6 @@ status: 🟢 Always shipping, never stopping
 > Reverse-engineered API — 6 image models, 21 tools, 470+ voices.
 > Ghost login, full endpoint mapping.
 
-- **Models**: GPT Image 2, nano banana, seedream, wan2.7
-- **Tools**: 21 different tool endpoints
-- **Voices**: 470+ TTS voices mapped
-
 </details>
 
 <!-- PROJECT 8 -->
@@ -176,9 +185,6 @@ status: 🟢 Always shipping, never stopping
 
 > Flipkart SSR extraction + Amazon bot detection bypass.
 > Combined API for product prices, ratings, offers.
-
-- **Flipkart** — `__INITIAL_STATE__` JSON extraction (working)
-- **Amazon** — bot detection challenge (alternative approach needed)
 
 </details>
 
@@ -197,11 +203,10 @@ status: 🟢 Always shipping, never stopping
 
 ## `> cat ./stats.md`
 
-<!-- GITHUB STATS -->
 <div align="center">
 
+<!-- STATS + STREAK -->
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=zedxlab&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8B5CF6&icon_color=8B5CF6&text_color=c9d1d9&ring_color=8B5CF6&include_all_commits=true&count_private=true" />
-
 <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=zedxlab&theme=tokyonight&hide_border=true&background=0d1117&stroke=8B5CF6&ring=8B5CF6&fire=8B5CF6&currStreakLabel=8B5CF6&sideLabels=c9d1d9" />
 
 </div>
@@ -224,7 +229,6 @@ status: 🟢 Always shipping, never stopping
 
 ## `> cat ./contribution-snake.svg`
 
-<!-- SNAKE ANIMATION -->
 <div align="center">
 
 <picture>
@@ -241,34 +245,33 @@ status: 🟢 Always shipping, never stopping
 
 <div align="center">
 
-<!-- TROPHIES -->
-[![trophy](https://github-profile-trophy.vercel.app/?username=zedxlab&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
-<div align="center">
-
-<!-- ACHIEVEMENT BADGES -->
-<img src="https://img.shields.io/badge/-Shield%20Holder-000?style=flat-square&logo=github&logoColor=white&color=8B5CF6" />
-<img src="https://img.shields.io/badge/-Pull%20Request%20Star-000?style=flat-square&logo=github&logoColor=white&color=f48024" />
-<img src="https://img.shields.io/badge/-YOLO-000?style=flat-square&logo=github&logoColor=white&color=2ea043" />
-<img src="https://img.shields.io/badge/-Galaxy%20Brain-000?style=flat-square&logo=github&logoColor=white&color=d29922" />
-<img src="https://img.shields.io/badge/-Starstruck-000?style=flat-square&logo=github&logoColor=white&color=da3633" />
-<img src="https://img.shields.io/badge/-Pair%20Extraordinaire-000?style=flat-square&logo=github&logoColor=white&color=539bf5" />
-<img src="https://img.shields.io/badge/-Quickdraw-000?style=flat-square&logo=github&logoColor=white&color=2ea043" />
-<img src="https://img.shields.io/badge/-Star%20Gazer-000?style=flat-square&logo=github&logoColor=white&color=f78166" />
-<img src="https://img.shields.io/badge/-Pull%20Request%20Pro-000?style=flat-square&logo=github&logoColor=white&color=8B5CF6" />
-<img src="https://img.shields.io/badge/-YOLO%20Merged-000?style=flat-square&logo=github&logoColor=white&color=da3633" />
-<img src="https://img.shields.io/badge/-Code%20Review%20Wizard-000?style=flat-square&logo=github&logoColor=white&color=539bf5" />
-<img src="https://img.shields.io/badge/-Community%20Hero-000?style=flat-square&logo=github&logoColor=white&color=d29922" />
-<img src="https://img.shields.io/badge/-Security%20Maverick-000?style=flat-square&logo=github&logoColor=white&color=f48024" />
-<img src="https://img.shields.io/badge/-Build%20Breaker-000?style=flat-square&logo=github&logoColor=white&color=2ea043" />
-<img src="https://img.shields.io/badge/-Discussion%20Starter-000?style=flat-square&logo=github&logoColor=white&color=8B5CF6" />
-<img src="https://img.shields.io/badge/-Lightning%20Speed-000?style=flat-square&logo=github&logoColor=white&color=f78166" />
-<img src="https://img.shields.io/badge/-Issue%20Whisperer-000?style=flat-square&logo=github&logoColor=white&color=da3633" />
-<img src="https://img.shields.io/badge/-Release%20Rider-000?style=flat-square&logo=github&logoColor=white&color=539bf5" />
-<img src="https://img.shields.io/badge/-Bug%20Hunter-000?style=flat-square&logo=github&logoColor=white&color=d29922" />
-<img src="https://img.shields.io/badge/-Roadtripper-000?style=flat-square&logo=github&logoColor=white&color=f48024" />
+<!-- GITHUB BADGES -->
+<img src="https://img.shields.io/badge/-🛡️%20Shield%20Holder-000?style=flat-square&logo=github&logoColor=white&color=8B5CF6" />
+<img src="https://img.shields.io/badge/-⭐%20Starstruck-000?style=flat-square&logo=github&logoColor=white&color=f48024" />
+<img src="https://img.shields.io/badge/-🚀%20YOLO-000?style=flat-square&logo=github&logoColor=white&color=2ea043" />
+<img src="https://img.shields.io/badge/-🧠%20Galaxy%20Brain-000?style=flat-square&logo=github&logoColor=white&color=d29922" />
+<img src="https://img.shields.io/badge/-🏆%20Pull%20Shark-000?style=flat-square&logo=github&logoColor=white&color=539bf5" />
+<img src="https://img.shields.io/badge/-👥%20Pair%20Extra-000?style=flat-square&logo=github&logoColor=white&color=f78166" />
+<img src="https://img.shields.io/badge/-⚡%20Quickdraw-000?style=flat-square&logo=github&logoColor=white&color=2ea043" />
+<img src="https://img.shields.io/badge/-🐛%20Bug%20Hunter-000?style=flat-square&logo=github&logoColor=white&color=da3633" />
+<img src="https://img.shields.io/badge/-💬%20Discussion%20Hero-000?style=flat-square&logo=github&logoColor=white&color=8B5CF6" />
+<img src="https://img.shields.io/badge/-⚡%20Lightning-000?style=flat-square&logo=github&logoColor=white&color=f78166" />
+<img src="https://img.shields.io/badge/-🎯%20Issue%20Whisperer-000?style=flat-square&logo=github&logoColor=white&color=da3633" />
+<img src="https://img.shields.io/badge/-📦%20Release%20Rider-000?style=flat-square&logo=github&logoColor=white&color=539bf5" />
+<img src="https://img.shields.io/badge/-🔒%20Security%20Maverick-000?style=flat-square&logo=github&logoColor=white&color=f48024" />
+<img src="https://img.shields.io/badge/-🏗️%20Build%20Breaker-000?style=flat-square&logo=github&logoColor=white&color=2ea043" />
+<img src="https://img.shields.io/badge/-🤝%20Community%20Hero-000?style=flat-square&logo=github&logoColor=white&color=d29922" />
+<img src="https://img.shields.io/badge/-🗺️%20Roadtripper-000?style=flat-square&logo=github&logoColor=white&color=f48024" />
+<img src="https://img.shields.io/badge/-💎%20Code%20Wizard-000?style=flat-square&logo=github&logoColor=white&color=539bf5" />
+<img src="https://img.shields.io/badge/-🔥%20Flame-000?style=flat-square&logo=github&logoColor=white&color=da3633" />
+<img src="https://img.shields.io/badge/-💎%20Diamond-000?style=flat-square&logo=github&logoColor=white&color=8B5CF6" />
+<img src="https://img.shields.io/badge/-🎯%20Sharpshooter-000?style=flat-square&logo=github&logoColor=white&color=2ea043" />
+<img src="https://img.shields.io/badge/-🌟%20Rising%20Star-000?style=flat-square&logo=github&logoColor=white&color=f78166" />
+<img src="https://img.shields.io/badge/-⚙️%20Builder-000?style=flat-square&logo=github&logoColor=white&color=d29922" />
+<img src="https://img.shields.io/badge/-📚%20Scholar-000?style=flat-square&logo=github&logoColor=white&color=539bf5" />
+<img src="https://img.shields.io/badge/-🧪%20Experimenter-000?style=flat-square&logo=github&logoColor=white&color=da3633" />
+<img src="https://img.shields.io/badge/-🏅%20Gold+Badge-000?style=flat-square&logo=github&logoColor=white&color=f48024" />
+<img src="https://img.shields.io/badge/-🥇%20Champion-000?style=flat-square&logo=github&logoColor=white&color=2ea043" />
 
 </div>
 
@@ -284,16 +287,111 @@ status: 🟢 Always shipping, never stopping
 
 ---
 
-## `> cat ./activity-feed.md`
+## `> cat ./terminal.md`
 
-<!-- RECENT ACTIVITY -->
 <div align="center">
 
+```bash
+┌─────────────────────────────────────────────────────┐
+│  $ cat /etc/motd                                    │
+│                                                     │
+│  ████████╗███████╗██████╗ ███╗   ███╗               │
+│  ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║               │
+│     ██║   █████╗  ██████╔╝██╔████╔██║               │
+│     ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║               │
+│     ██║   ███████╗██║  ██║██║ ╚═╝ ██║               │
+│     ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝               │
+│                                                     │
+│  Zade @ zedxlab                                     │
+│  AI Builder | Scraper | API Architect               │
+│                                                     │
+│  OS:     Linux aarch64 (Termux)                     │
+│  Shell:  bash 5.2.21                                │
+│  Editor: Claude Code + OpenClaude                   │
+│  IDE:    VS Code + Terminal                         │
+│  VPN:    None needed (I build my own)               │
+│                                                     │
+│  Uptime: $(uptime -p)                               │
+│  Repos:  9+ public                                  │
+│  API:    3 deployed on Vercel                       │
+│  Models: 13 image generators mapped                 │
+│                                                     │
+└─────────────────────────────────────────────────────┘
+```
+
+</div>
+
+---
+
+## `> cat ./github-activity.md`
+
+<div align="center">
+
+<!-- PINNED REPOS -->
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=zedxlab&repo=zedxlab&show_owner=true&theme=tokyonight&bg_color=0d1117&title_color=8B5CF6&text_color=c9d1d9&border_color=8B5CF6)](https://github.com/zedxlab/zedxlab)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=zedxlab&repo=chatgpt-scraper&show_owner=true&theme=tokyonight&bg_color=0d1117&title_color=8B5CF6&text_color=c9d1d9&border_color=8B5CF6)](https://github.com/zedxlab/chatgpt-scraper)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=zedxlab&repo=zedxlab-ddg-api&show_owner=true&theme=tokyonight&bg_color=0d1117&title_color=8B5CF6&text_color=c9d1d9&border_color=8B5CF6)](https://github.com/zedxlab/zedxlab-ddg-api)
+
+</div>
+
+---
+
+## `> cat ./dev-metrics.md`
+
+<div align="center">
+
+<!-- CONTRIBUTION COUNT -->
+![GitHub Metrics](https://img.shields.io/badge/-GitHub%20Commits-8B5CF6?style=for-the-badge&logo=github&logoColor=white&label=Commits&message=Private)
+
+<!-- LINES OF CODE -->
+![Lines of Code](https://img.shields.io/badge/-Lines%20of%20Code-2ea043?style=for-the-badge&logo=visual-studio-code&logoColor=white&label=Lines%20Written&message=10%2C000%2B)
+
+<!-- REPOS -->
+![Public Repos](https://img.shields.io/badge/-Public%20Repos-f48024?style=for-the-badge&logo=github&logoColor=white&label=Public%20Repos&message=9%2B)
+
+<!-- API DEPLOYED -->
+![APIs Deployed](https://img.shields.io/badge/-APIs%20Deployed-d29922?style=for-the-badge&logo=vercel&logoColor=white&label=Vercel%20APIs&message=3%2B)
+
+<!-- MODELS MAPPED -->
+![Models Mapped](https://img.shields.io/badge/-Models%20Mapped-da3633?style=for-the-badge&logo=python&logoColor=white&label=Image%20Models&message=13%2B)
+
+<!-- VOICES -->
+![Voices Mapped](https://img.shields.io/badge/-Voices%20Mapped-539bf5?style=for-the-badge&logo=openai&logoColor=white&label=TTS%20Voices&message=470%2B)
+
+</div>
+
+---
+
+## `> cat ./tech-stack.md`
+
+<div align="center">
+
+| Category | Tech |
+|----------|------|
+| **Languages** | Python, JavaScript, TypeScript, Bash, HTML/CSS |
+| **Runtime** | Node.js, Chromium CDP, Xvfb |
+| **AI/ML** | ChatGPT, Gemini, DeepSeek, DDG AI, Claude |
+| **Database** | Redis, SQLite, MongoDB |
+| **Hosting** | Vercel, GitHub Actions, Telegram Bots |
+| **Tools** | Docker, Nginx, Git, VS Code, Linux |
+| **Scraping** | CDP, Puppeteer, BeautifulSoup, SSR extraction |
+| **APIs** | Pinterest, Instagram, Flipkart, Amazon |
+
+</div>
+
+---
+
+## `> cat ./philosophy.txt`
+
+<div align="center">
+
+> *"Building free AI tools because someone has to."*
+
+> *"If it costs money, someone will build it free."*
+
+> *"Ship fast, break nothing, iterate forever."*
 
 </div>
 
@@ -314,17 +412,13 @@ status: 🟢 Always shipping, never stopping
 
 <div align="center">
 
-*"Building free AI tools because someone has to."*
-
 ![Profile Views](https://count.getloli.com/get/@zedxlab?theme=gelbooru)
 
 </div>
 
-<!-- FOOTER -->
+<!-- DIVIDER -->
 <div align="center">
 
 ![Divider](assets/divider.gif)
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=14&duration=2000&pause=500&color=8B5CF6&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=60&lines=Made+with+passion+by+ZEDXLAB;Powered+by+caffeine+and+curiosity;&bg_color=0d1117&center=true)](https://git.io/typing-svg)
 
 </div>
