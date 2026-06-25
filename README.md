@@ -277,10 +277,58 @@ status: 🟢 Always shipping, never stopping
 
 <div align="center">
 
-<!-- SPOTIFY NOW PLAYING -->
-<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=spotify_user_id&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&interchange=true&bar_color=8B5CF6" width="600" />
+<!-- ANIMATED MUSIC PLAYER -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="600" />
 
-<!-- ANIMATED MUSIC WAVE -->
+```
+  ♪  NOW PLAYING  ♪
+  ═══════════════════════════════
+
+  🎵  DESPACITO
+      Luis Fonsi ft. Daddy Yankee
+      ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░  72%
+
+  🎵  BAILANDO
+      Enrique Iglesias ft. Gente de Zona
+      ▓▓▓▓▓▓▓▓▓▓░░░░░░░░░  58%
+
+  🎵  VIVIR MI VIDA
+      Marc Anthony
+      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░  80%
+
+  🎵  GASOLINA
+      Daddy Yankee
+      ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░  68%
+
+  🎵  HIPS DON'T LIE
+      Shakira ft. Wyclef Jean
+      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░  85%
+
+  🎵  WAKA WAKA
+      Shakira
+      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░  90%
+
+  🎵  LA BAMBA
+      Ritchie Valens
+      ▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░  62%
+
+  🎵  SUAVEMENTE
+      Elvis Crespo
+      ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░  70%
+
+  🎵  PEDRO
+      Raffaella Carrà
+      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░  92%
+
+  🎵  MACARENA
+      Los del Río
+      ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░  66%
+
+  ═══════════════════════════════
+  ♪  ZEDXLAB PLAYLIST  ♪
+```
+
+<!-- ANIMATED EQUALIZER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="600" />
 
 </div>
