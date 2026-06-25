@@ -32,16 +32,11 @@
 
 ## `> whoami`
 
-```yaml
-name: Zade
-alias: ZEDXLAB
-role: AI Engineer & API Architect
-location: India
-focus: Building free, open AI tools — scrapers, APIs, image generators
-stack: [Node.js, Python, Chromium CDP, Vercel, Telegram Bots]
-philosophy: "If it costs money, someone will build it free"
-status: Always shipping, never stopping
-```
+<div align="center">
+
+![Terminal](assets/terminal.svg)
+
+</div>
 
 ---
 
