@@ -361,8 +361,10 @@ status: 🟢 Always shipping, never stopping
 <!-- ANIMATED FOOTER -->
 <div align="center">
 
+![Divider](assets/divider.gif)
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=14&duration=2000&pause=500&color=8B5CF6&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=60&lines=Made+with+passion+by+ZEDXLAB;Powered+by+caffeine+and+curiosity;&bg_color=0d1117&center=true)](https://git.io/typing-svg)
 
-[![Wave](https://img.shields.io/badge/-Wave-0d1117?style=for-the-badge&logo=github&logoColor=8B5CF6)](https://github.com/zedxlab)
+![Wave](assets/footer-snake.svg)
 
 </div>
