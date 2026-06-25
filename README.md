@@ -61,6 +61,14 @@
 
 </div>
 
+### `> skills --level`
+
+<div align="center">
+
+![Skills](assets/skills.svg)
+
+</div>
+
 ---
 
 ## `> cat ./projects.md`

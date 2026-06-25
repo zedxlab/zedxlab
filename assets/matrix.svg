@@ -1,0 +1,416 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <rect width="800" height="200" fill="#000"/>
+  <defs>
+    <style>
+      .m { font-family: monospace; font-size: 14px; fill: #00ff41; opacity: 0.8; }
+      .d { font-family: monospace; font-size: 14px; fill: #00ff41; opacity: 0.3; }
+      .h { font-family: monospace; font-size: 14px; fill: #00ff41; opacity: 1; }
+      @keyframes rain1 { from{transform:translateY(-180px)} to{transform:translateY(220px)} }
+      @keyframes rain2 { from{transform:translateY(-220px)} to{transform:translateY(220px)} }
+      @keyframes rain3 { from{transform:translateY(-160px)} to{transform:translateY(220px)} }
+      @keyframes rain4 { from{transform:translateY(-200px)} to{transform:translateY(220px)} }
+      @keyframes rain5 { from{transform:translateY(-140px)} to{transform:translateY(220px)} }
+      .r1 { animation: rain1 2.5s linear infinite; }
+      .r2 { animation: rain2 3.0s linear infinite 0.3s; }
+      .r3 { animation: rain3 2.2s linear infinite 0.7s; }
+      .r4 { animation: rain4 2.8s linear infinite 1.1s; }
+      .r5 { animation: rain5 2.0s linear infinite 0.5s; }
+    </style>
+  </defs>
+
+  <!-- Column 1 -->
+  <g class="r1">
+    <text x="20" y="20" class="h">Z</text>
+    <text x="20" y="35" class="m">E</text>
+    <text x="20" y="50" class="d">D</text>
+    <text x="20" y="65" class="m">X</text>
+    <text x="20" y="80" class="d">L</text>
+    <text x="20" y="95" class="d">A</text>
+    <text x="20" y="110" class="m">B</text>
+    <text x="20" y="125" class="d">0</text>
+    <text x="20" y="140" class="d">1</text>
+    <text x="20" y="155" class="m">0</text>
+    <text x="20" y="170" class="d">1</text>
+    <text x="20" y="185" class="d">1</text>
+  </g>
+
+  <!-- Column 2 -->
+  <g class="r3">
+    <text x="50" y="20" class="h">A</text>
+    <text x="50" y="35" class="m">I</text>
+    <text x="50" y="50" class="d">1</text>
+    <text x="50" y="65" class="d">0</text>
+    <text x="50" y="80" class="m">C</text>
+    <text x="50" y="95" class="d">D</text>
+    <text x="50" y="110" class="m">P</text>
+    <text x="50" y="125" class="d">1</text>
+    <text x="50" y="140" class="m">1</text>
+    <text x="50" y="155" class="d">0</text>
+    <text x="50" y="170" class="d">1</text>
+    <text x="50" y="185" class="m">0</text>
+  </g>
+
+  <!-- Column 3 -->
+  <g class="r2">
+    <text x="80" y="20" class="m">S</text>
+    <text x="80" y="35" class="d">C</text>
+    <text x="80" y="50" class="h">R</text>
+    <text x="80" y="65" class="d">A</text>
+    <text x="80" y="80" class="m">P</text>
+    <text x="80" y="95" class="d">E</text>
+    <text x="80" y="110" class="d">R</text>
+    <text x="80" y="125" class="m">1</text>
+    <text x="80" y="140" class="d">0</text>
+    <text x="80" y="155" class="m">1</text>
+    <text x="80" y="170" class="d">1</text>
+    <text x="80" y="185" class="m">0</text>
+  </g>
+
+  <!-- Column 4 -->
+  <g class="r4">
+    <text x="110" y="20" class="d">V</text>
+    <text x="110" y="35" class="m">E</text>
+    <text x="110" y="50" class="h">R</text>
+    <text x="110" y="65" class="d">C</text>
+    <text x="110" y="80" class="m">E</text>
+    <text x="110" y="95" class="d">L</text>
+    <text x="110" y="110" class="d">0</text>
+    <text x="110" y="125" class="m">1</text>
+    <text x="110" y="140" class="d">1</text>
+    <text x="110" y="155" class="m">0</text>
+    <text x="110" y="170" class="d">1</text>
+    <text x="110" y="185" class="m">1</text>
+  </g>
+
+  <!-- Column 5 -->
+  <g class="r5">
+    <text x="140" y="20" class="m">T</text>
+    <text x="140" y="35" class="d">G</text>
+    <text x="140" y="50" class="d">B</text>
+    <text x="140" y="65" class="h">O</text>
+    <text x="140" y="80" class="d">T</text>
+    <text x="140" y="95" class="m">S</text>
+    <text x="140" y="110" class="d">1</text>
+    <text x="140" y="125" class="d">0</text>
+    <text x="140" y="140" class="m">1</text>
+    <text x="140" y="155" class="d">1</text>
+    <text x="140" y="170" class="m">0</text>
+    <text x="140" y="185" class="d">1</text>
+  </g>
+
+  <!-- More columns for full width -->
+  <g class="r1">
+    <text x="170" y="20" class="d">0</text>
+    <text x="170" y="35" class="m">1</text>
+    <text x="170" y="50" class="h">N</text>
+    <text x="170" y="65" class="d">O</text>
+    <text x="170" y="80" class="m">D</text>
+    <text x="170" y="95" class="d">E</text>
+    <text x="170" y="110" class="m">1</text>
+    <text x="170" y="125" class="d">0</text>
+    <text x="170" y="140" class="d">1</text>
+    <text x="170" y="155" class="m">0</text>
+    <text x="170" y="170" class="d">1</text>
+    <text x="170" y="185" class="m">0</text>
+  </g>
+
+  <g class="r3">
+    <text x="200" y="20" class="m">P</text>
+    <text x="200" y="35" class="d">Y</text>
+    <text x="200" y="50" class="m">T</text>
+    <text x="200" y="65" class="h">H</text>
+    <text x="200" y="80" class="d">O</text>
+    <text x="200" y="95" class="m">N</text>
+    <text x="200" y="110" class="d">1</text>
+    <text x="200" y="125" class="m">0</text>
+    <text x="200" y="140" class="d">1</text>
+    <text x="200" y="155" class="d">0</text>
+    <text x="200" y="170" class="m">1</text>
+    <text x="200" y="185" class="d">1</text>
+  </g>
+
+  <g class="r2">
+    <text x="230" y="20" class="d">J</text>
+    <text x="230" y="35" class="m">S</text>
+    <text x="230" y="50" class="d">1</text>
+    <text x="230" y="65" class="m">0</text>
+    <text x="230" y="80" class="h">R</text>
+    <text x="230" y="95" class="d">E</text>
+    <text x="230" y="110" class="m">D</text>
+    <text x="230" y="125" class="d">I</text>
+    <text x="230" y="140" class="m">S</text>
+    <text x="230" y="155" class="d">1</text>
+    <text x="230" y="170" class="m">0</text>
+    <text x="230" y="185" class="d">1</text>
+  </g>
+
+  <g class="r4">
+    <text x="260" y="20" class="m">0</text>
+    <text x="260" y="35" class="d">1</text>
+    <text x="260" y="50" class="m">1</text>
+    <text x="260" y="65" class="d">0</text>
+    <text x="260" y="80" class="m">1</text>
+    <text x="260" y="95" class="h">S</text>
+    <text x="260" y="110" class="d">C</text>
+    <text x="260" y="125" class="m">R</text>
+    <text x="260" y="140" class="d">A</text>
+    <text x="260" y="155" class="m">P</text>
+    <text x="260" y="170" class="d">E</text>
+    <text x="260" y="185" class="m">R</text>
+  </g>
+
+  <g class="r5">
+    <text x="290" y="20" class="d">A</text>
+    <text x="290" y="35" class="m">P</text>
+    <text x="290" y="50" class="d">I</text>
+    <text x="290" y="65" class="m">1</text>
+    <text x="290" y="80" class="d">0</text>
+    <text x="290" y="95" class="m">1</text>
+    <text x="290" y="110" class="h">A</text>
+    <text x="290" y="125" class="d">R</text>
+    <text x="290" y="140" class="m">C</text>
+    <text x="290" y="155" class="d">H</text>
+    <text x="290" y="170" class="m">0</text>
+    <text x="290" y="185" class="d">1</text>
+  </g>
+
+  <g class="r1">
+    <text x="320" y="20" class="m">M</text>
+    <text x="320" y="35" class="d">O</text>
+    <text x="320" y="50" class="m">D</text>
+    <text x="320" y="65" class="d">E</text>
+    <text x="320" y="80" class="m">L</text>
+    <text x="320" y="95" class="d">S</text>
+    <text x="320" y="110" class="m">1</text>
+    <text x="320" y="125" class="d">3</text>
+    <text x="320" y="140" class="m">+</text>
+    <text x="320" y="155" class="d">0</text>
+    <text x="320" y="170" class="m">1</text>
+    <text x="320" y="185" class="d">1</text>
+  </g>
+
+  <g class="r3">
+    <text x="350" y="20" class="d">1</text>
+    <text x="350" y="35" class="m">0</text>
+    <text x="350" y="50" class="m">C</text>
+    <text x="350" y="65" class="h">L</text>
+    <text x="350" y="80" class="d">O</text>
+    <text x="350" y="95" class="m">U</text>
+    <text x="350" y="110" class="d">D</text>
+    <text x="350" y="125" class="m">E</text>
+    <text x="350" y="140" class="d">1</text>
+    <text x="350" y="155" class="m">0</text>
+    <text x="350" y="170" class="d">1</text>
+    <text x="350" y="185" class="m">0</text>
+  </g>
+
+  <g class="r2">
+    <text x="380" y="20" class="m">F</text>
+    <text x="380" y="35" class="d">R</text>
+    <text x="380" y="50" class="d">E</text>
+    <text x="380" y="65" class="m">E</text>
+    <text x="380" y="80" class="d">A</text>
+    <text x="380" y="95" class="m">P</text>
+    <text x="380" y="110" class="h">I</text>
+    <text x="380" y="125" class="d">S</text>
+    <text x="380" y="140" class="m">1</text>
+    <text x="380" y="155" class="d">0</text>
+    <text x="380" y="170" class="m">1</text>
+    <text x="380" y="185" class="d">1</text>
+  </g>
+
+  <g class="r4">
+    <text x="410" y="20" class="d">V</text>
+    <text x="410" y="35" class="m">O</text>
+    <text x="410" y="50" class="m">I</text>
+    <text x="410" y="65" class="d">C</text>
+    <text x="410" y="80" class="m">E</text>
+    <text x="410" y="95" class="d">S</text>
+    <text x="410" y="110" class="m">4</text>
+    <text x="410" y="125" class="h">7</text>
+    <text x="410" y="140" class="d">0</text>
+    <text x="410" y="155" class="m">+</text>
+    <text x="410" y="170" class="d">1</text>
+    <text x="410" y="185" class="m">0</text>
+  </g>
+
+  <g class="r5">
+    <text x="440" y="20" class="m">0</text>
+    <text x="440" y="35" class="d">1</text>
+    <text x="440" y="50" class="m">1</text>
+    <text x="440" y="65" class="d">0</text>
+    <text x="440" y="80" class="h">D</text>
+    <text x="440" y="95" class="m">E</text>
+    <text x="440" y="110" class="d">V</text>
+    <text x="440" y="125" class="m">S</text>
+    <text x="440" y="140" class="d">1</text>
+    <text x="440" y="155" class="m">0</text>
+    <text x="440" y="170" class="d">1</text>
+    <text x="440" y="185" class="m">1</text>
+  </g>
+
+  <g class="r1">
+    <text x="470" y="20" class="d">B</text>
+    <text x="470" y="35" class="m">U</text>
+    <text x="470" y="50" class="m">I</text>
+    <text x="470" y="65" class="d">L</text>
+    <text x="470" y="80" class="m">D</text>
+    <text x="470" y="95" class="m">E</text>
+    <text x="470" y="110" class="h">R</text>
+    <text x="470" y="125" class="d">0</text>
+    <text x="470" y="140" class="m">1</text>
+    <text x="470" y="155" class="d">1</text>
+    <text x="470" y="170" class="m">0</text>
+    <text x="470" y="185" class="d">1</text>
+  </g>
+
+  <g class="r3">
+    <text x="500" y="20" class="m">9</text>
+    <text x="500" y="35" class="d">+</text>
+    <text x="500" y="50" class="m">R</text>
+    <text x="500" y="65" class="d">E</text>
+    <text x="500" y="80" class="m">P</text>
+    <text x="500" y="95" class="h">O</text>
+    <text x="500" y="110" class="d">S</text>
+    <text x="500" y="125" class="m">1</text>
+    <text x="500" y="140" class="d">0</text>
+    <text x="500" y="155" class="m">1</text>
+    <text x="500" y="170" class="d">0</text>
+    <text x="500" y="185" class="m">1</text>
+  </g>
+
+  <g class="r2">
+    <text x="530" y="20" class="d">S</text>
+    <text x="530" y="35" class="m">H</text>
+    <text x="530" y="50" class="d">I</text>
+    <text x="530" y="65" class="m">P</text>
+    <text x="530" y="80" class="m">F</text>
+    <text x="530" y="95" class="d">A</text>
+    <text x="530" y="110" class="m">S</text>
+    <text x="530" y="125" class="h">T</text>
+    <text x="530" y="140" class="d">1</text>
+    <text x="530" y="155" class="m">0</text>
+    <text x="530" y="170" class="d">1</text>
+    <text x="530" y="185" class="m">0</text>
+  </g>
+
+  <g class="r4">
+    <text x="560" y="20" class="m">1</text>
+    <text x="560" y="35" class="d">0</text>
+    <text x="560" y="50" class="m">N</text>
+    <text x="560" y="65" class="h">E</text>
+    <text x="560" y="80" class="d">V</text>
+    <text x="560" y="95" class="m">E</text>
+    <text x="560" y="110" class="d">R</text>
+    <text x="560" y="125" class="m">S</text>
+    <text x="560" y="140" class="d">T</text>
+    <text x="560" y="155" class="m">O</text>
+    <text x="560" y="170" class="d">P</text>
+    <text x="560" y="185" class="m">1</text>
+  </g>
+
+  <g class="r5">
+    <text x="590" y="20" class="d">0</text>
+    <text x="590" y="35" class="m">1</text>
+    <text x="590" y="50" class="m">1</text>
+    <text x="590" y="65" class="d">0</text>
+    <text x="590" y="80" class="m">1</text>
+    <text x="590" y="95" class="d">1</text>
+    <text x="590" y="110" class="h">Z</text>
+    <text x="590" y="125" class="d">E</text>
+    <text x="590" y="140" class="m">D</text>
+    <text x="590" y="155" class="d">X</text>
+    <text x="590" y="170" class="m">1</text>
+    <text x="590" y="185" class="d">0</text>
+  </g>
+
+  <g class="r1">
+    <text x="620" y="20" class="m">L</text>
+    <text x="620" y="35" class="d">A</text>
+    <text x="620" y="50" class="m">B</text>
+    <text x="620" y="65" class="d">0</text>
+    <text x="620" y="80" class="m">1</text>
+    <text x="620" y="95" class="h">A</text>
+    <text x="620" y="110" class="d">B</text>
+    <text x="620" y="125" class="m">0</text>
+    <text x="620" y="140" class="d">1</text>
+    <text x="620" y="155" class="m">1</text>
+    <text x="620" y="170" class="d">0</text>
+    <text x="620" y="185" class="m">1</text>
+  </g>
+
+  <g class="r3">
+    <text x="650" y="20" class="d">0</text>
+    <text x="650" y="35" class="m">1</text>
+    <text x="650" y="50" class="d">1</text>
+    <text x="650" y="65" class="m">0</text>
+    <text x="650" y="80" class="d">1</text>
+    <text x="650" y="95" class="m">0</text>
+    <text x="650" y="110" class="m">1</text>
+    <text x="650" y="125" class="h">1</text>
+    <text x="650" y="140" class="d">0</text>
+    <text x="650" y="155" class="m">1</text>
+    <text x="650" y="170" class="d">1</text>
+    <text x="650" y="185" class="m">0</text>
+  </g>
+
+  <g class="r2">
+    <text x="680" y="20" class="m">1</text>
+    <text x="680" y="35" class="d">0</text>
+    <text x="680" y="50" class="m">1</text>
+    <text x="680" y="65" class="d">0</text>
+    <text x="680" y="80" class="m">1</text>
+    <text x="680" y="95" class="h">1</text>
+    <text x="680" y="110" class="d">0</text>
+    <text x="680" y="125" class="m">1</text>
+    <text x="680" y="140" class="d">1</text>
+    <text x="680" y="155" class="m">0</text>
+    <text x="680" y="170" class="d">1</text>
+    <text x="680" y="185" class="m">1</text>
+  </g>
+
+  <g class="r5">
+    <text x="710" y="20" class="d">1</text>
+    <text x="710" y="35" class="m">0</text>
+    <text x="710" y="50" class="m">1</text>
+    <text x="710" y="65" class="d">1</text>
+    <text x="710" y="80" class="m">0</text>
+    <text x="710" y="95" class="d">1</text>
+    <text x="710" y="110" class="m">1</text>
+    <text x="710" y="125" class="h">1</text>
+    <text x="710" y="140" class="d">0</text>
+    <text x="710" y="155" class="m">1</text>
+    <text x="710" y="170" class="d">0</text>
+    <text x="710" y="185" class="m">1</text>
+  </g>
+
+  <g class="r4">
+    <text x="740" y="20" class="m">0</text>
+    <text x="740" y="35" class="d">1</text>
+    <text x="740" y="50" class="d">1</text>
+    <text x="740" y="65" class="m">0</text>
+    <text x="740" y="80" class="d">1</text>
+    <text x="740" y="95" class="m">1</text>
+    <text x="740" y="110" class="d">0</text>
+    <text x="740" y="125" class="m">1</text>
+    <text x="740" y="140" class="h">1</text>
+    <text x="740" y="155" class="d">0</text>
+    <text x="740" y="170" class="m">1</text>
+    <text x="740" y="185" class="d">1</text>
+  </g>
+
+  <g class="r1">
+    <text x="770" y="20" class="d">1</text>
+    <text x="770" y="35" class="m">1</text>
+    <text x="770" y="50" class="m">0</text>
+    <text x="770" y="65" class="d">1</text>
+    <text x="770" y="80" class="m">1</text>
+    <text x="770" y="95" class="d">0</text>
+    <text x="770" y="110" class="m">1</text>
+    <text x="770" y="125" class="d">1</text>
+    <text x="770" y="140" class="m">0</text>
+    <text x="770" y="155" class="h">1</text>
+    <text x="770" y="170" class="d">0</text>
+    <text x="770" y="185" class="m">1</text>
+  </g>
+</svg>
