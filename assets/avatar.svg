@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <style>
+      @keyframes blink-eyes { 0%,90%,100%{opacity:1} 95%{opacity:0} }
+      .eye { animation: blink-eyes 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100" height="100" rx="15" fill="#282a36"/>
+
+  <!-- Hair -->
+  <rect x="25" y="10" width="50" height="20" rx="10" fill="#1e1e2e"/>
+
+  <!-- Face -->
+  <rect x="28" y="25" width="44" height="40" rx="8" fill="#deb887"/>
+
+  <!-- Eyes -->
+  <g class="eye">
+    <rect x="36" y="38" width="8" height="8" rx="2" fill="#1e1e2e"/>
+    <rect x="56" y="38" width="8" height="8" rx="2" fill="#1e1e2e"/>
+    <rect x="38" y="39" width="3" height="3" rx="1" fill="#fff"/>
+    <rect x="58" y="39" width="3" height="3" rx="1" fill="#fff"/>
+  </g>
+
+  <!-- Smile -->
+  <path d="M40,55 Q50,65 60,55" stroke="#1e1e2e" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Hoodie -->
+  <rect x="22" y="65" width="56" height="30" rx="8" fill="#8B5CF6"/>
+
+  <!-- Hoodie logo -->
+  <text x="50" y="85" text-anchor="middle" font-family="monospace" font-size="10" fill="#fff" font-weight="bold">Z</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <style>
+      @keyframes glow { 0%,100%{filter:drop-shadow(0 0 4px #8B5CF6)} 50%{filter:drop-shadow(0 0 12px #bd93f9)} }
+      @keyframes pulse { 0%,100%{opacity:0.8} 50%{opacity:1} }
+      .logo { animation: glow 2s ease-in-out infinite; }
+      .z { fill: #8B5CF6; font-family: monospace; font-size: 60px; font-weight: bold; }
+      .e { fill: #bd93f9; font-family: monospace; font-size: 60px; font-weight: bold; }
+      .d { fill: #ff79c6; font-family: monospace; font-size: 60px; font-weight: bold; }
+      .x { fill: #f1fa8c; font-family: monospace; font-size: 60px; font-weight: bold; }
+      .l { fill: #50fa7b; font-family: monospace; font-size: 60px; font-weight: bold; }
+      .a { fill: #8be9fd; font-family: monospace; font-size: 60px; font-weight: bold; }
+      .b { fill: #ffb86c; font-family: monospace; font-size: 60px; font-weight: bold; }
+      .sub { fill: #6272a4; font-family: monospace; font-size: 14px; animation: pulse 3s ease-in-out infinite; }
+      .line { stroke: #44475a; stroke-width: 1; }
+      .dot { fill: #50fa7b; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="120" rx="10" fill="#282a36"/>
+
+  <!-- Decorative lines -->
+  <line x1="20" y1="15" x2="380" y2="15" class="line" stroke-dasharray="4,4"/>
+  <line x1="20" y1="105" x2="380" y2="105" class="line" stroke-dasharray="4,4"/>
+
+  <!-- Corner dots -->
+  <circle cx="15" cy="15" r="3" class="dot"/>
+  <circle cx="385" cy="15" r="3" class="dot"/>
+  <circle cx="15" cy="105" r="3" class="dot"/>
+  <circle cx="385" cy="105" r="3" class="dot"/>
+
+  <!-- Logo text -->
+  <g class="logo">
+    <text x="200" y="75" text-anchor="middle" font-family="monospace" font-size="60" font-weight="bold">
+      <tspan class="z">Z</tspan><tspan class="e">E</tspan><tspan class="d">D</tspan><tspan class="x">X</tspan><tspan class="l">L</tspan><tspan class="a">A</tspan><tspan class="b">B</tspan>
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="200" y="98" text-anchor="middle" class="sub">AI Builder | Scraper | API Architect</text>
+</svg>
