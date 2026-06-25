@@ -140,8 +140,11 @@ philosophy: "If it costs money, someone will build it free"
 <!-- SNAKE ANIMATION -->
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/zedxlab/zedxlab/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-![Snake animation](https://raw.githubusercontent.com/zedxlab/zedxlab/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zedxlab/zedxlab/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zedxlab/zedxlab/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/zedxlab/zedxlab/output/github-snake.svg" />
+</picture>
 
 </div>
 
@@ -162,6 +165,6 @@ philosophy: "If it costs money, someone will build it free"
 
 *"Building free AI tools because someone has to."*
 
-![Profile Views](https://komarev.com/ghpvc/?username=zedxlab&color=8B5CF6&style=flat-square&label=PROFILE+VIEWS)
+![Profile Views](https://count.getloli.com/get/@zedxlab?theme=gelbooru)
 
 </div>
