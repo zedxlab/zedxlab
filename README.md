@@ -401,9 +401,9 @@
 
 </div>
 
-<!-- DIVIDER -->
+<!-- FOOTER LOGO -->
 <div align="center">
 
-![Divider](assets/divider.gif)
+![Z Logo](assets/z-logo.svg)
 
 </div>
