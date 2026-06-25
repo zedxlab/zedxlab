@@ -48,22 +48,7 @@ status: 🟢 Always shipping, never stopping
 
 <div align="center">
 
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Telegram](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Nginx](https://img.shields.io/badge/-Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<img src="https://skillicons.dev/icons?i=nodejs,python,javascript,typescript,vercel,linux,docker,redis,git,telegram,html,css,sqlite,mongodb,nginx,vscode" />
 
 </div>
 
@@ -288,6 +273,20 @@ status: 🟢 Always shipping, never stopping
 
 ---
 
+## `> cat ./music.txt`
+
+<div align="center">
+
+<!-- SPOTIFY NOW PLAYING -->
+<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=spotify_user_id&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&interchange=true&bar_color=8B5CF6" width="600" />
+
+<!-- ANIMATED MUSIC WAVE -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="600" />
+
+</div>
+
+---
+
 ## `> ping`
 
 <div align="center">
@@ -306,5 +305,14 @@ status: 🟢 Always shipping, never stopping
 *"Building free AI tools because someone has to."*
 
 ![Profile Views](https://count.getloli.com/get/@zedxlab?theme=gelbooru)
+
+</div>
+
+<!-- ANIMATED WAVE FOOTER -->
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/footer-snake.svg" width="100%" />
 
 </div>
