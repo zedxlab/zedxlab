@@ -12,75 +12,93 @@
   <!-- Title -->
   <text x="375" y="22" text-anchor="middle" font-family="monospace" font-size="13" fill="#6272a4">zedxlab@termux ~ %</text>
 
-  <!-- $ whoami -->
-  <text x="20" y="65" font-family="monospace" font-size="14">
+  <!-- $ whoami — appears at 0.5s -->
+  <text x="20" y="65" font-family="monospace" font-size="14" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.5s" fill="freeze"/>
     <tspan fill="#50fa7b">$</tspan>
     <tspan fill="#f8f8f2"> whoami</tspan>
-    <tspan fill="#50fa7b">_</tspan>
+    <tspan fill="#50fa7b">
+      _
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </tspan>
   </text>
 
-  <!-- name -->
-  <text x="20" y="88" font-family="monospace" font-size="13">
+  <!-- name — appears at 1.2s -->
+  <text x="20" y="88" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.2s" fill="freeze"/>
     <tspan fill="#ff79c6">  name:</tspan>
     <tspan fill="#8be9fd"> Zade</tspan>
   </text>
 
-  <!-- alias -->
-  <text x="20" y="106" font-family="monospace" font-size="13">
+  <!-- alias — appears at 1.8s -->
+  <text x="20" y="106" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.8s" fill="freeze"/>
     <tspan fill="#ff79c6">  alias:</tspan>
     <tspan fill="#8be9fd"> ZEDXLAB</tspan>
   </text>
 
-  <!-- role -->
-  <text x="20" y="124" font-family="monospace" font-size="13">
+  <!-- role — appears at 2.4s -->
+  <text x="20" y="124" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.4s" fill="freeze"/>
     <tspan fill="#ff79c6">  role:</tspan>
     <tspan fill="#8be9fd"> AI Engineer &amp; API Architect</tspan>
   </text>
 
-  <!-- location -->
-  <text x="20" y="142" font-family="monospace" font-size="13">
+  <!-- location — appears at 3.0s -->
+  <text x="20" y="142" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.0s" fill="freeze"/>
     <tspan fill="#ff79c6">  location:</tspan>
     <tspan fill="#8be9fd"> Mexico</tspan>
   </text>
 
-  <!-- focus -->
-  <text x="20" y="160" font-family="monospace" font-size="13">
+  <!-- focus — appears at 3.6s -->
+  <text x="20" y="160" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.6s" fill="freeze"/>
     <tspan fill="#ff79c6">  focus:</tspan>
     <tspan fill="#8be9fd"> Building free, open AI tools</tspan>
   </text>
 
-  <!-- stack -->
-  <text x="20" y="178" font-family="monospace" font-size="13">
+  <!-- stack — appears at 4.2s -->
+  <text x="20" y="178" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.2s" fill="freeze"/>
     <tspan fill="#ff79c6">  stack:</tspan>
     <tspan fill="#8be9fd"> Node.js | Python | CDP | Vercel | TG Bots</tspan>
   </text>
 
-  <!-- philosophy -->
-  <text x="20" y="196" font-family="monospace" font-size="13">
+  <!-- philosophy — appears at 4.8s -->
+  <text x="20" y="196" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.8s" fill="freeze"/>
     <tspan fill="#ff79c6">  philosophy:</tspan>
     <tspan fill="#f1fa8c"> "If it costs money, someone will build it free"</tspan>
   </text>
 
-  <!-- status -->
-  <text x="20" y="214" font-family="monospace" font-size="13">
+  <!-- status — appears at 5.4s -->
+  <text x="20" y="214" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="5.4s" fill="freeze"/>
     <tspan fill="#ff79c6">  status:</tspan>
     <tspan fill="#50fa7b"> Always shipping, never stopping</tspan>
   </text>
 
-  <!-- Separator -->
-  <text x="20" y="238" font-family="monospace" font-size="13">
+  <!-- Separator — appears at 6.0s -->
+  <text x="20" y="238" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="6.0s" fill="freeze"/>
     <tspan fill="#6272a4">  ────────────────────────────────────────────────</tspan>
   </text>
 
-  <!-- $ cat stats -->
-  <text x="20" y="260" font-family="monospace" font-size="14">
+  <!-- $ cat stats — appears at 6.6s -->
+  <text x="20" y="260" font-family="monospace" font-size="14" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="6.6s" fill="freeze"/>
     <tspan fill="#50fa7b">$</tspan>
     <tspan fill="#f8f8f2"> cat /etc/stats.json</tspan>
-    <tspan fill="#50fa7b">_</tspan>
+    <tspan fill="#50fa7b">
+      _
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </tspan>
   </text>
 
-  <!-- repos -->
-  <text x="20" y="282" font-family="monospace" font-size="13">
+  <!-- repos — appears at 7.2s -->
+  <text x="20" y="282" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="7.2s" fill="freeze"/>
     <tspan fill="#ff79c6">  repos:</tspan>
     <tspan fill="#8be9fd"> 9+ public</tspan>
     <tspan fill="#6272a4"> | </tspan>
@@ -88,8 +106,9 @@
     <tspan fill="#8be9fd"> 3 deployed on Vercel</tspan>
   </text>
 
-  <!-- models -->
-  <text x="20" y="300" font-family="monospace" font-size="13">
+  <!-- models — appears at 7.8s -->
+  <text x="20" y="300" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="7.8s" fill="freeze"/>
     <tspan fill="#ff79c6">  models:</tspan>
     <tspan fill="#8be9fd"> 13 image generators</tspan>
     <tspan fill="#6272a4"> | </tspan>
@@ -97,8 +116,9 @@
     <tspan fill="#8be9fd"> 470+ TTS voices</tspan>
   </text>
 
-  <!-- os -->
-  <text x="20" y="318" font-family="monospace" font-size="13">
+  <!-- os — appears at 8.4s -->
+  <text x="20" y="318" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="8.4s" fill="freeze"/>
     <tspan fill="#ff79c6">  os:</tspan>
     <tspan fill="#8be9fd"> Linux aarch64 (Termux)</tspan>
     <tspan fill="#6272a4"> | </tspan>
@@ -106,8 +126,9 @@
     <tspan fill="#8be9fd"> bash</tspan>
   </text>
 
-  <!-- editor -->
-  <text x="20" y="336" font-family="monospace" font-size="13">
+  <!-- editor — appears at 9.0s -->
+  <text x="20" y="336" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="9.0s" fill="freeze"/>
     <tspan fill="#ff79c6">  editor:</tspan>
     <tspan fill="#8be9fd"> Claude Code + OpenClaude</tspan>
     <tspan fill="#6272a4"> | </tspan>
@@ -115,28 +136,38 @@
     <tspan fill="#8be9fd"> VS Code</tspan>
   </text>
 
-  <!-- Separator -->
-  <text x="20" y="360" font-family="monospace" font-size="13">
+  <!-- Separator — appears at 9.6s -->
+  <text x="20" y="360" font-family="monospace" font-size="13" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="9.6s" fill="freeze"/>
     <tspan fill="#6272a4">  ────────────────────────────────────────────────</tspan>
   </text>
 
-  <!-- $ echo -->
-  <text x="20" y="382" font-family="monospace" font-size="14">
+  <!-- $ echo — appears at 10.2s -->
+  <text x="20" y="382" font-family="monospace" font-size="14" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="10.2s" fill="freeze"/>
     <tspan fill="#50fa7b">$</tspan>
     <tspan fill="#f8f8f2"> echo "Status: $(curl -s zedxlab.vercel.app/api/health)"</tspan>
-    <tspan fill="#50fa7b">_</tspan>
+    <tspan fill="#50fa7b">
+      _
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </tspan>
   </text>
 
-  <!-- Status output -->
-  <text x="20" y="404" font-family="monospace" font-size="14">
+  <!-- Status output — appears at 10.8s -->
+  <text x="20" y="404" font-family="monospace" font-size="14" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="10.8s" fill="freeze"/>
     <tspan fill="#50fa7b">  Status: ALL SYSTEMS OPERATIONAL</tspan>
     <tspan fill="#6272a4"> | </tspan>
     <tspan fill="#8be9fd">0 errors</tspan>
   </text>
 
-  <!-- Final prompt -->
-  <text x="20" y="430" font-family="monospace" font-size="14">
+  <!-- Final prompt — appears at 11.4s -->
+  <text x="20" y="430" font-family="monospace" font-size="14" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="11.4s" fill="freeze"/>
     <tspan fill="#50fa7b">$</tspan>
-    <tspan fill="#50fa7b">_</tspan>
+    <tspan fill="#50fa7b">
+      _
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </tspan>
   </text>
 </svg>
