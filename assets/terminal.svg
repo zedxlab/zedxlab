@@ -1,39 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 450" width="750" height="450">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 480" width="750" height="480">
   <defs>
     <style>
       @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
       @keyframes fadein { 0%{opacity:0} 100%{opacity:1} }
       .cursor { animation: blink 1s step-end infinite; }
-      .l1 { animation: fadein 0.1s 0.3s both; }
-      .l2 { animation: fadein 0.1s 0.6s both; }
-      .l3 { animation: fadein 0.1s 0.9s both; }
-      .l4 { animation: fadein 0.1s 1.2s both; }
-      .l5 { animation: fadein 0.1s 1.5s both; }
-      .l6 { animation: fadein 0.1s 1.8s both; }
-      .l7 { animation: fadein 0.1s 2.1s both; }
-      .l8 { animation: fadein 0.1s 2.4s both; }
-      .l9 { animation: fadein 0.1s 2.7s both; }
-      .l10 { animation: fadein 0.1s 3.0s both; }
-      .l11 { animation: fadein 0.1s 3.3s both; }
-      .l12 { animation: fadein 0.1s 3.6s both; }
-      .l13 { animation: fadein 0.1s 3.9s both; }
-      .prompt { fill: #50fa7b; }
-      .cmd { fill: #f8f8f2; }
-      .output { fill: #6272a4; }
-      .accent { fill: #bd93f9; }
-      .string { fill: #f1fa8c; }
-      .comment { fill: #6272a4; }
-      .key { fill: #ff79c6; }
-      .val { fill: #8be9fd; }
-      .green { fill: #50fa7b; }
-      .red { fill: #ff5555; }
-      .yellow { fill: #f1fa8c; }
-      .label { fill: #6272a4; }
+      .prompt { fill: #50fa7b; font-family: monospace; font-size: 13px; }
+      .cmd { fill: #f8f8f2; font-family: monospace; font-size: 13px; }
+      .key { fill: #ff79c6; font-family: monospace; font-size: 13px; }
+      .val { fill: #8be9fd; font-family: monospace; font-size: 13px; }
+      .green { fill: #50fa7b; font-family: monospace; font-size: 13px; }
+      .comment { fill: #6272a4; font-family: monospace; font-size: 13px; }
+      .string { fill: #f1fa8c; font-family: monospace; font-size: 13px; }
+
+      /* Typing animation: each line appears after delay */
+      .t1 { animation: fadein 0s 0.5s both; }
+      .t2 { animation: fadein 0s 1.2s both; }
+      .t3 { animation: fadein 0s 1.8s both; }
+      .t4 { animation: fadein 0s 2.4s both; }
+      .t5 { animation: fadein 0s 3.0s both; }
+      .t6 { animation: fadein 0s 3.6s both; }
+      .t7 { animation: fadein 0s 4.2s both; }
+      .t8 { animation: fadein 0s 4.8s both; }
+      .t9 { animation: fadein 0s 5.4s both; }
+      .t10 { animation: fadein 0s 6.0s both; }
+      .t11 { animation: fadein 0s 6.6s both; }
+      .t12 { animation: fadein 0s 7.2s both; }
+      .t13 { animation: fadein 0s 7.8s both; }
+      .t14 { animation: fadein 0s 8.4s both; }
+      .t15 { animation: fadein 0s 9.0s both; }
+      .t16 { animation: fadein 0s 9.6s both; }
+      .t17 { animation: fadein 0s 10.2s both; }
+
+      /* Typing caret effect */
+      @keyframes caret1 { 0%,100%{opacity:1} 50%{opacity:1} }
     </style>
   </defs>
 
   <!-- Terminal Window -->
-  <rect x="0" y="0" width="750" height="450" rx="10" ry="10" fill="#282a36"/>
+  <rect x="0" y="0" width="750" height="480" rx="10" ry="10" fill="#282a36"/>
   <rect x="0" y="0" width="750" height="35" rx="10" ry="10" fill="#21222c"/>
   <rect x="0" y="25" width="750" height="10" fill="#21222c"/>
 
@@ -45,98 +49,103 @@
   <!-- Title -->
   <text x="375" y="22" text-anchor="middle" font-family="monospace" font-size="13" fill="#6272a4">zedxlab@termux ~ %</text>
 
-  <!-- Command: whoami -->
-  <text x="20" y="65" font-family="monospace" font-size="14">
+  <!-- Line 1: $ whoami -->
+  <text x="20" y="65" class="t1" opacity="0">
     <tspan class="prompt">$</tspan>
     <tspan class="cmd"> whoami</tspan>
+    <tspan class="cursor" fill="#50fa7b">_</tspan>
   </text>
 
-  <!-- Output: name -->
-  <text x="20" y="90" font-family="monospace" font-size="13" class="l1" opacity="0">
-    <tspan class="key">name:</tspan>
+  <!-- Line 2: name -->
+  <text x="20" y="88" class="t2" opacity="0">
+    <tspan class="key">  name:</tspan>
     <tspan class="val"> Zade</tspan>
   </text>
 
-  <!-- Output: alias -->
-  <text x="20" y="108" font-family="monospace" font-size="13" class="l2" opacity="0">
-    <tspan class="key">alias:</tspan>
+  <!-- Line 3: alias -->
+  <text x="20" y="106" class="t3" opacity="0">
+    <tspan class="key">  alias:</tspan>
     <tspan class="val"> ZEDXLAB</tspan>
   </text>
 
-  <!-- Output: role -->
-  <text x="20" y="126" font-family="monospace" font-size="13" class="l3" opacity="0">
-    <tspan class="key">role:</tspan>
+  <!-- Line 4: role -->
+  <text x="20" y="124" class="t4" opacity="0">
+    <tspan class="key">  role:</tspan>
     <tspan class="val"> AI Engineer &amp; API Architect</tspan>
   </text>
 
-  <!-- Output: location -->
-  <text x="20" y="144" font-family="monospace" font-size="13" class="l4" opacity="0">
-    <tspan class="key">location:</tspan>
+  <!-- Line 5: location -->
+  <text x="20" y="142" class="t5" opacity="0">
+    <tspan class="key">  location:</tspan>
     <tspan class="val"> India</tspan>
   </text>
 
-  <!-- Output: focus -->
-  <text x="20" y="162" font-family="monospace" font-size="13" class="l5" opacity="0">
-    <tspan class="key">focus:</tspan>
+  <!-- Line 6: focus -->
+  <text x="20" y="160" class="t6" opacity="0">
+    <tspan class="key">  focus:</tspan>
     <tspan class="val"> Building free, open AI tools</tspan>
   </text>
 
-  <!-- Output: stack -->
-  <text x="20" y="180" font-family="monospace" font-size="13" class="l6" opacity="0">
-    <tspan class="key">stack:</tspan>
-    <tspan class="val"> Node.js, Python, CDP, Vercel, TG Bots</tspan>
+  <!-- Line 7: stack -->
+  <text x="20" y="178" class="t7" opacity="0">
+    <tspan class="key">  stack:</tspan>
+    <tspan class="val"> Node.js | Python | CDP | Vercel | TG Bots</tspan>
   </text>
 
-  <!-- Output: philosophy -->
-  <text x="20" y="198" font-family="monospace" font-size="13" class="l7" opacity="0">
-    <tspan class="key">philosophy:</tspan>
+  <!-- Line 8: philosophy -->
+  <text x="20" y="196" class="t8" opacity="0">
+    <tspan class="key">  philosophy:</tspan>
     <tspan class="string"> "If it costs money, someone will build it free"</tspan>
   </text>
 
-  <!-- Output: status -->
-  <text x="20" y="216" font-family="monospace" font-size="13" class="l8" opacity="0">
-    <tspan class="key">status:</tspan>
+  <!-- Line 9: status -->
+  <text x="20" y="214" class="t9" opacity="0">
+    <tspan class="key">  status:</tspan>
     <tspan class="green"> Always shipping, never stopping</tspan>
   </text>
 
   <!-- Separator -->
-  <text x="20" y="240" font-family="monospace" font-size="13" class="l9" opacity="0">
-    <tspan class="comment">───────────────────────────────────────────────</tspan>
+  <text x="20" y="238" class="t10" opacity="0">
+    <tspan class="comment">  ────────────────────────────────────────────────</tspan>
   </text>
 
-  <!-- Command: stats -->
-  <text x="20" y="262" font-family="monospace" font-size="14" class="l10" opacity="0">
+  <!-- Line 10: $ cat stats -->
+  <text x="20" y="260" class="t11" opacity="0">
     <tspan class="prompt">$</tspan>
     <tspan class="cmd"> cat /etc/stats.json</tspan>
+    <tspan class="cursor" fill="#50fa7b">_</tspan>
   </text>
 
-  <!-- Stats output -->
-  <text x="20" y="282" font-family="monospace" font-size="13" class="l11" opacity="0">
-    <tspan class="key">repos:</tspan>
+  <!-- Line 11: repos -->
+  <text x="20" y="282" class="t12" opacity="0">
+    <tspan class="key">  repos:</tspan>
     <tspan class="val"> 9+ public</tspan>
     <tspan class="comment"> | </tspan>
     <tspan class="key">apis:</tspan>
     <tspan class="val"> 3 deployed on Vercel</tspan>
   </text>
 
-  <text x="20" y="300" font-family="monospace" font-size="13" class="l11" opacity="0">
-    <tspan class="key">models:</tspan>
-    <tspan class="val"> 13 image generators mapped</tspan>
+  <!-- Line 12: models -->
+  <text x="20" y="300" class="t12" opacity="0">
+    <tspan class="key">  models:</tspan>
+    <tspan class="val"> 13 image generators</tspan>
     <tspan class="comment"> | </tspan>
     <tspan class="key">voices:</tspan>
     <tspan class="val"> 470+ TTS voices</tspan>
   </text>
 
-  <text x="20" y="318" font-family="monospace" font-size="13" class="l12" opacity="0">
-    <tspan class="key">os:</tspan>
+  <!-- Line 13: os -->
+  <text x="20" y="318" class="t13" opacity="0">
+    <tspan class="key">  os:</tspan>
     <tspan class="val"> Linux aarch64 (Termux)</tspan>
     <tspan class="comment"> | </tspan>
     <tspan class="key">shell:</tspan>
     <tspan class="val"> bash</tspan>
   </text>
 
-  <text x="20" y="336" font-family="monospace" font-size="13" class="l12" opacity="0">
-    <tspan class="key">editor:</tspan>
+  <!-- Line 14: editor -->
+  <text x="20" y="336" class="t13" opacity="0">
+    <tspan class="key">  editor:</tspan>
     <tspan class="val"> Claude Code + OpenClaude</tspan>
     <tspan class="comment"> | </tspan>
     <tspan class="key">ide:</tspan>
@@ -144,22 +153,26 @@
   </text>
 
   <!-- Separator -->
-  <text x="20" y="358" font-family="monospace" font-size="13" class="l13" opacity="0">
-    <tspan class="comment">───────────────────────────────────────────────</tspan>
+  <text x="20" y="360" class="t14" opacity="0">
+    <tspan class="comment">  ────────────────────────────────────────────────</tspan>
   </text>
 
-  <!-- Command: echo -->
-  <text x="20" y="378" font-family="monospace" font-size="14" class="l13" opacity="0">
+  <!-- Line 15: $ echo -->
+  <text x="20" y="382" class="t15" opacity="0">
     <tspan class="prompt">$</tspan>
-    <tspan class="cmd"> echo "Status: ALL SYSTEMS OPERATIONAL"</tspan>
+    <tspan class="cmd"> echo "Status: $(curl -s zedxlab.vercel.app/api/health)"</tspan>
+    <tspan class="cursor" fill="#50fa7b">_</tspan>
   </text>
 
-  <text x="20" y="396" font-family="monospace" font-size="14" class="l13" opacity="0">
-    <tspan class="green">Status: ALL SYSTEMS OPERATIONAL</tspan>
+  <!-- Line 16: Status output -->
+  <text x="20" y="404" class="t16" opacity="0">
+    <tspan class="green">  Status: ALL SYSTEMS OPERATIONAL</tspan>
+    <tspan class="comment"> | </tspan>
+    <tspan class="val">0 errors</tspan>
   </text>
 
-  <!-- Cursor -->
-  <text x="20" y="420" font-family="monospace" font-size="14" class="l13" opacity="0">
+  <!-- Line 17: final prompt -->
+  <text x="20" y="430" class="t17" opacity="0">
     <tspan class="prompt">$</tspan>
     <tspan class="cursor" fill="#50fa7b">_</tspan>
   </text>
