@@ -277,59 +277,61 @@ status: 🟢 Always shipping, never stopping
 
 <div align="center">
 
-<!-- ANIMATED MUSIC PLAYER -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="600" />
-
 ```
-  ♪  NOW PLAYING  ♪
-  ═══════════════════════════════
+  ♪  ZEDXLAB SPOTIFY  ♪
+  ═══════════════════════════════════════
 
-  🎵  DESPACITO
-      Luis Fonsi ft. Daddy Yankee
-      ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░  72%
+  DESPACITO ──── Luis Fonsi ft. Daddy Yankee
+  ████████████████████░░░░░░  72%
 
-  🎵  BAILANDO
-      Enrique Iglesias ft. Gente de Zona
-      ▓▓▓▓▓▓▓▓▓▓░░░░░░░░░  58%
+  BAILANDO ──── Enrique Iglesias ft. Gente de Zona
+  ██████████████░░░░░░░░░░░░  58%
 
-  🎵  VIVIR MI VIDA
-      Marc Anthony
-      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░  80%
+  VIVIR MI VIDA ──── Marc Anthony
+  █████████████████████░░░░░  80%
 
-  🎵  GASOLINA
-      Daddy Yankee
-      ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░  68%
+  GASOLINA ──── Daddy Yankee
+  ██████████████████░░░░░░░░  68%
 
-  🎵  HIPS DON'T LIE
-      Shakira ft. Wyclef Jean
-      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░  85%
+  HIPS DON'T LIE ──── Shakira ft. Wyclef Jean
+  ██████████████████████░░░░  85%
 
-  🎵  WAKA WAKA
-      Shakira
-      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░  90%
+  WAKA WAKA ──── Shakira
+  ███████████████████████░░░  90%
 
-  🎵  LA BAMBA
-      Ritchie Valens
-      ▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░  62%
+  LA BAMBA ──── Ritchie Valens
+  ██████████████░░░░░░░░░░░░  62%
 
-  🎵  SUAVEMENTE
-      Elvis Crespo
-      ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░  70%
+  SUAVEMENTE ──── Elvis Crespo
+  █████████████████░░░░░░░░░  70%
 
-  🎵  PEDRO
-      Raffaella Carrà
-      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░  92%
+  PEDRO ──── Raffaella Carrà
+  ███████████████████████░░░  92%
 
-  🎵  MACARENA
-      Los del Río
-      ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░  66%
+  MACARENA ──── Los del Rio
+  ███████████████░░░░░░░░░░░  66%
 
-  ═══════════════════════════════
-  ♪  ZEDXLAB PLAYLIST  ♪
+  NICKY JAM x JHON Z ──── With You Tonight
+  █████████████████████░░░░░  82%
+
+  EL PERDON ──── Nicky Jam & Enrique Iglesias
+  ███████████████████░░░░░░░  76%
+
+  TRAP QUEEN ──── Nicky Jam
+  ██████████████████████░░░░  84%
+
+  CAMINANDO ──── Nicky Jam
+  █████████████████░░░░░░░░░  72%
+
+  AHORA DILE ──── Nicky Jam
+  ██████████████████░░░░░░░░  68%
+
+  X ──── Nicky Jam x J Balvin
+  ███████████████████████░░░  91%
+
+  ═══════════════════════════════════════
+  ♪  ZEDXLAB RADIO  ♪  (16 TRACKS)
 ```
-
-<!-- ANIMATED EQUALIZER -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="600" />
 
 </div>
 
@@ -356,11 +358,11 @@ status: 🟢 Always shipping, never stopping
 
 </div>
 
-<!-- ANIMATED WAVE FOOTER -->
+<!-- ANIMATED FOOTER -->
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=14&duration=2000&pause=500&color=8B5CF6&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=60&lines=Made+with+passion+by+ZEDXLAB;Powered+by+caffeine+and+curiosity;&bg_color=0d1117&center=true)](https://git.io/typing-svg)
 
-<img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/footer-snake.svg" width="100%" />
+[![Wave](https://img.shields.io/badge/-Wave-0d1117?style=for-the-badge&logo=github&logoColor=8B5CF6)](https://github.com/zedxlab)
 
 </div>
