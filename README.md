@@ -1,5 +1,14 @@
 <div align="center">
 
+<!-- ZEDXLAB LOGO -->
+<img src="assets/logo.svg" width="400"/>
+
+<!-- PIXEL ART AVATAR -->
+<img src="assets/avatar.svg" width="100"/>
+
+<!-- SPINNING GEAR -->
+<img src="assets/gear.svg" width="80"/>
+
 <!-- HEADER BANNER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=ZEDXLAB&fontColor=ffffff&fontSize=40&fontAlignY=35&desc=%F0%9F%94%A7%20AI%20Builder%20%7C%20Scraper%20%7C%20API%20Architect&descSize=14&descAlignY=55&animation=fadeIn" width="100%"/>
 
