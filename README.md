@@ -6,6 +6,12 @@
 <!-- TYPING SVG -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Building+AI+tools+that+actually+work;Free+APIs%2C+no+auth+required;Turning+scrapers+into+products;Always+shipping%2C+never+stopping)](https://git.io/typing-svg)
 
+<!-- GITHUB TROPHIES -->
+<img src="https://github-profile-trophy.vercel.app/?username=zedxlab&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15" width="100%"/>
+
+<!-- PROFILE VIEWS -->
+<img src="https://count.getloli.com/get/@zedxlab?theme=gelbooru" width="150"/>
+
 </div>
 
 ---
@@ -16,10 +22,25 @@
 name: Zade
 alias: ZEDXLAB
 role: AI Engineer & API Architect
+location: India
 focus: Building free, open AI tools — scrapers, APIs, image generators
 stack: [Node.js, Python, Chromium CDP, Vercel, Telegram Bots]
 philosophy: "If it costs money, someone will build it free"
+status: 🟢 Always shipping, never stopping
 ```
+
+---
+
+## `> cat ./social.txt`
+
+<div align="center">
+
+[![Telegram](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ikzade)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/zade.ai)
+[![Email](https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zade911786@gmail.com)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zedxlab)
+
+</div>
 
 ---
 
@@ -37,6 +58,12 @@ philosophy: "If it costs money, someone will build it free"
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Telegram](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Nginx](https://img.shields.io/badge/-Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 </div>
 
@@ -45,7 +72,7 @@ philosophy: "If it costs money, someone will build it free"
 ## `> cat ./projects.md`
 
 <!-- PROJECT 1 -->
-<details>
+<details open>
 <summary><b> chatgpt-scraper</b> — Headless ChatGPT Image Scraper</summary>
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
@@ -58,11 +85,12 @@ philosophy: "If it costs money, someone will build it free"
 - **7-step pipeline**: connect → inject cookies → navigate → fill prompt → poll stop-button → extract estuary URLs → fetch + base64
 - **Live screenshots** during generation via Telegram bot
 - **Multi-account** cookie support
+- **Persistent Chromium profile** — survives restarts
 
 </details>
 
 <!-- PROJECT 2 -->
-<details>
+<details open>
 <summary><b> zedxlab-ddg-api</b> — DuckDuckGo AI API</summary>
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
@@ -75,26 +103,40 @@ philosophy: "If it costs money, someone will build it free"
 - **POST** endpoints for chat, image gen, image edit
 - **CloakBrowser** + GitHub Actions for DDG access
 - **Zero cost** — no API keys needed
+- **Smart routing** — auto-fallback between providers
 
 </details>
 
 <!-- PROJECT 3 -->
-<details>
+<details open>
 <summary><b> imagen.py</b> — Multi-Model Image Generator</summary>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Rich](https://img.shields.io/badge/Rich_CLI-8B5CF6?style=flat)
 
-> 13 image models in one CLI — including ChatGPT DALL-E (Model 12) + Gemini Imagen (Model 13).
+> 13 image models in one CLI — including ChatGPT DALL-E + Gemini Imagen.
 > Rich terminal UI with spinner, model picker, progress bars.
 
-- **13 models**: DDG, Prodia, Bing, DALL-E, Gemini, API Hub
+- **13 models**: DDG, Prodia, Bing, DALL-E, Gemini, API Hub, AbhiBots, HotBot
 - **Telegram integration** — send results directly
 - **Smart routing** — auto-fallback between providers
+- **Rich UI** — gradient banners, progress bars, spinners
 
 </details>
 
 <!-- PROJECT 4 -->
+<details>
+<summary><b> hotbot-image.py</b> — HotBot Image Generator</summary>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)
+
+> 11 models including DDG — spinner picker, TG integration, cookie management.
+> Auto-sends to Telegram after generation with per-spinner speeds.
+
+</details>
+
+<!-- PROJECT 5 -->
 <details>
 <summary><b> Vercel API Projects</b> — Free Public APIs</summary>
 
@@ -103,20 +145,66 @@ philosophy: "If it costs money, someone will build it free"
 
 > Collection of free APIs deployed on Vercel — no auth, no rate limits.
 
-- **zade-pin-api** — Pinterest image/video download
+- **zade-pin-api** — Pinterest image/video download (SSR extraction)
 - **zade-wallpaper-api** — HD wallpapers with GSAP showcase
-- **zade-ig-dl-api** — Instagram reels/posts download
+- **zade-ig-dl-api** — Instagram reels/posts download (CDN JWT)
 
 </details>
 
-<!-- PROJECT 5 -->
+<!-- PROJECT 6 -->
 <details>
-<summary><b> hotbot-image.py</b> — HotBot Image Generator</summary>
+<summary><b> chatgpt-scraper/gemini.js</b> — Gemini Image Generator</summary>
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Chrome](https://img.shields.io/badge/Chrome-4285F4?style=flat&logo=googlechrome&logoColor=white)
+
+> Google Gemini image generation via CDP browser automation.
+> Cookie injection + blob→canvas→tmpfiles.org pipeline.
+
+- **Integrated** as Model 13 in imagen.py
+- **Google cookies** inject OK with sameSite fix
+- **Live screenshots** via shared module
+
+</details>
+
+<!-- PROJECT 7 -->
+<details>
+<summary><b> AbhiBots API</b> — RE'd Image Generation API</summary>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-> 11 models including DDG — spinner picker, TG integration, cookie management.
-> Auto-sends to Telegram after generation.
+> Reverse-engineered API — 6 image models, 21 tools, 470+ voices.
+> Ghost login, full endpoint mapping.
+
+- **Models**: GPT Image 2, nano banana, seedream, wan2.7
+- **Tools**: 21 different tool endpoints
+- **Voices**: 470+ TTS voices mapped
+
+</details>
+
+<!-- PROJECT 8 -->
+<details>
+<summary><b> Flipkart/Amazon Price Tracker</b> — Product Price Monitor</summary>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat)
+
+> Flipkart SSR extraction + Amazon bot detection bypass.
+> Combined API for product prices, ratings, offers.
+
+- **Flipkart** — `__INITIAL_STATE__` JSON extraction (working)
+- **Amazon** — bot detection challenge (alternative approach needed)
+
+</details>
+
+<!-- PROJECT 9 -->
+<details>
+<summary><b> MiMo TTS</b> — Text-to-Speech Script</summary>
+
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
+
+> mimo-v2.5-tts model with Chloe voice — WAV output.
+> Emotions/style tags, temp file for long text, curl for TG send.
 
 </details>
 
@@ -130,6 +218,20 @@ philosophy: "If it costs money, someone will build it free"
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=zedxlab&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8B5CF6&icon_color=8B5CF6&text_color=c9d1d9&ring_color=8B5CF6&include_all_commits=true&count_private=true" />
 
 <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=zedxlab&theme=tokyonight&hide_border=true&background=0d1117&stroke=8B5CF6&ring=8B5CF6&fire=8B5CF6&currStreakLabel=8B5CF6&sideLabels=c9d1d9" />
+
+</div>
+
+<!-- TOP LANGUAGES -->
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zedxlab&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8B5CF6&text_color=c9d1d9&langs_count=8" />
+
+</div>
+
+<!-- ACTIVITY GRAPH -->
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=zedxlab&bg_color=0d1117&color=8B5CF6&line=8B5CF6&point=ffffff&area=true&area_color=8B5CF6&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -150,12 +252,80 @@ philosophy: "If it costs money, someone will build it free"
 
 ---
 
+## `> cat ./achievements.md`
+
+<!-- GITHUB BADGES -->
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=zedxlab&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+<!-- CONTRIBUTION STATS -->
+<div align="center">
+
+![GitHub metrics](https://metrics.lecoq.io/zedxlab?style=radical&base=github&flag=true&config={"lines":{"show":false},"rate":{"show":false},"activity":{"show":true,"days":30},"hextras":{"show":true,"lines_changed":false,"commits":false},"reviews":false,"traffic":false,"traffic_days":"last-30"})&theme=radical)
+
+</div>
+
+---
+
+## `> cat ./wakatime.txt`
+
+<!-- WAKATIME STATS -->
+<div align="center">
+
+<!-- WEEKLY STATS -->
+[![wakatime](https://wakatime.com/badge/user/zedxlab.svg?style=for-the-badge)](https://wakatime.com/@zedxlab)
+
+</div>
+
+---
+
+## `> cat ./support.md`
+
+<div align="center">
+
+[![Buy Me A Coffee](https://img.shields.io/badge/-Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/zedxlab)
+[![Sponsor](https://img.shields.io/badge/-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/zedxlab)
+
+</div>
+
+---
+
+## `> cat ./random-facts.txt`
+
+<div align="center">
+
+![Random Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+</div>
+
+---
+
+## `> cat ./activity-feed.md`
+
+<!-- RECENT ACTIVITY -->
+<div align="center">
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=zedxlab&repo=zedxlab&show_owner=true&theme=tokyonight&bg_color=0d1117&title_color=8B5CF6&text_color=c9d1d9&border_color=8B5CF6)](https://github.com/zedxlab/zedxlab)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=zedxlab&repo=chatgpt-scraper&show_owner=true&theme=tokyonight&bg_color=0d1117&title_color=8B5CF6&text_color=c9d1d9&border_color=8B5CF6)](https://github.com/zedxlab/chatgpt-scraper)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=zedxlab&repo=zedxlab-ddg-api&show_owner=true&theme=tokyonight&bg_color=0d1117&title_color=8B5CF6&text_color=c9d1d9&border_color=8B5CF6)](https://github.com/zedxlab/zedxlab-ddg-api)
+
+</div>
+
+---
+
 ## `> ping`
 
 <div align="center">
 
 [![Telegram](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ikzade)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/zade.ai)
 [![Email](https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zade911786@gmail.com)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zedxlab)
 
 </div>
 
