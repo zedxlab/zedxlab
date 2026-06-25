@@ -243,9 +243,9 @@ status: 🟢 Always shipping, never stopping
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zedxlab/zedxlab/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zedxlab/zedxlab/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/zedxlab/zedxlab/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zedxlab/zedxlab/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zedxlab/zedxlab/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/zedxlab/zedxlab/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
@@ -258,36 +258,6 @@ status: 🟢 Always shipping, never stopping
 <div align="center">
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=zedxlab&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
-<!-- CONTRIBUTION STATS -->
-<div align="center">
-
-![GitHub metrics](https://metrics.lecoq.io/zedxlab?style=radical&base=github&flag=true&config={"lines":{"show":false},"rate":{"show":false},"activity":{"show":true,"days":30},"hextras":{"show":true,"lines_changed":false,"commits":false},"reviews":false,"traffic":false,"traffic_days":"last-30"})&theme=radical)
-
-</div>
-
----
-
-## `> cat ./wakatime.txt`
-
-<!-- WAKATIME STATS -->
-<div align="center">
-
-<!-- WEEKLY STATS -->
-[![wakatime](https://wakatime.com/badge/user/zedxlab.svg?style=for-the-badge)](https://wakatime.com/@zedxlab)
-
-</div>
-
----
-
-## `> cat ./support.md`
-
-<div align="center">
-
-[![Buy Me A Coffee](https://img.shields.io/badge/-Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/zedxlab)
-[![Sponsor](https://img.shields.io/badge/-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/zedxlab)
 
 </div>
 
