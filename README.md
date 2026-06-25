@@ -338,6 +338,16 @@ status: Always shipping, never stopping
 
 ---
 
+## `> cat ./terminal.md`
+
+<div align="center">
+
+![Terminal](assets/terminal.svg)
+
+</div>
+
+---
+
 ## `> cat ./dev-metrics.md`
 
 <div align="center">
